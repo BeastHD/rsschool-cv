@@ -1,1 +1,131 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #16522f;
+  margin: 0;
+  width: 1600px;
+  
+  
+}
+
+.site-navigation{
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+  background-color: rgb(226, 141, 43);
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 30px;
+  padding-right: 650px;
+}
+
+
+.nav-a {
+  text-decoration: none;
+  color: #fefefe;
+  transition: color 0.5s;
+}
+a:hover{
+  color: rgb(70, 156, 30);
+}
+.user{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  border-bottom: 5px solid rgb(226, 141, 43);
+  padding-bottom: 10px;
+}
+.main-item{
+  width: 800px;
+  margin: 0 auto;
+}
+img{
+  border-radius: 150px;
+}
+.autor{
+  align-self: center;
+}
+.name{
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+  
+}
+.vacancy{
+  margin: 0;
+  text-transform: uppercase;
+}
+.name::before {
+  content: ""; 
+  position: absolute; 
+  top: 10px; 
+   
+  height: 2px; 
+  background: rgb(226, 141, 43); 
+  left: 65px;
+  }
+ul{
+  list-style: none;
+  padding: 0;
+}
+h2{
+  color: rgb(226, 141, 43);
+}
+h3, .bevofe{
+  display: inline;
+  font-weight: normal;
+}
+.bevofe{
+  position: relative;
+  padding-left: 30px;
+}
+.bevofe::before{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  width: 10px;
+  height: 10px; 
+  border: 1px solid #829985;
+}
+.color{
+  color: rgb(226, 141, 43);
+  text-decoration: none;
+}
+.code{
+  font-size: 14px;
+}
+.main-footer{
+  
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 30px;
+  color: #7d8508;
+}
+.ul-about-myself{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 20px;
+}
+
+.sections{
+  width: 350px;
+  border-bottom: 3px solid rgb(226, 141, 43);
+}
+
+
+
+.main-nav{
+ 
+}
+.rs-logo {
+  
+  width: 41px;
+  height: 40px;
+}
+
 
